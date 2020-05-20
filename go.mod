@@ -24,7 +24,9 @@ replace (
 
 require (
 	github.com/golang/protobuf v1.4.2
-	golang.org/x/net v0.0.0-20200520004742-59133d7f0dd7 // indirect
+	github.com/google/btree v1.0.0 // indirect
+	github.com/micro/go-micro v1.18.0
+	golang.org/x/net v0.0.0-20200520004742-59133d7f0dd7
 	golang.org/x/sys v0.0.0-20200519105757-fe76b779f299 // indirect
 	google.golang.org/genproto v0.0.0-20200519141106-08726f379972 // indirect
 	google.golang.org/grpc v1.29.1
